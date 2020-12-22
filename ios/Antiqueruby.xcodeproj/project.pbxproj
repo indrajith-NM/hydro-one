@@ -1,0 +1,1270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AntiquerubyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AntiquerubyTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		154D6CC91D8896DA287666E5 /* libPods-Antiqueruby-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBCEFFEF60BAFD23C6083F7 /* libPods-Antiqueruby-tvOSTests.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* AntiquerubyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AntiquerubyTests.m */; };
+		36D8893008AC875C08E3B3F4 /* libPods-Antiqueruby.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCA5F45E674635D3A24F1E3 /* libPods-Antiqueruby.a */; };
+		5BAB40E0EF7B15DBAE96FA82 /* libPods-Antiqueruby-AntiquerubyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36FE3955A62940F203F1D5 /* libPods-Antiqueruby-AntiquerubyTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B6FBD1863F68D92F5D770402 /* libPods-Antiqueruby-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7B1FADC12C6D2EBBF989A0 /* libPods-Antiqueruby-tvOS.a */; };
+		9583251F66F849098958819F /* Bariol_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6DCB4C9BA46461AAD7947A7 /* Bariol_Regular.ttf */; };
+		C41FB29B1E57466A93332FA7 /* Bariol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 631FFAF1B1EA4E77A48EB02D /* Bariol.ttf */; };
+		026D6D7522BA4BE0A2499082 /* BariolRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41AEE08F309244E4A19E6BF7 /* BariolRegular.ttf */; };
+		D994EFC05F5749DFB094AC08 /* BebasNeue Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A8F5750F1B41A6823EE45D /* BebasNeue Bold.ttf */; };
+		259C250BD7B946FABB8BF1D0 /* BebasNeueBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15BCD30EE91E4C87AB3027B9 /* BebasNeueBook.ttf */; };
+		6770B969F2D941F98E242F16 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9006AF643BB949B89C76244A /* Helvetica.ttf */; };
+		EE49F7AAB9FB4457AB75F5EA /* HelveticaNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A31A44091044AA2BBC44D6A /* HelveticaNeue-Bold.ttf */; };
+		0AC183EF1DCF4BBFB5755C6A /* HelveticaNeue-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4658886A67784D9A96349FF9 /* HelveticaNeue-Light.ttf */; };
+		371C32AF275B45939B9F9EDC /* HelveticaNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 142773E3F62C429AB5F2238D /* HelveticaNeue-Regular.ttf */; };
+		F535B7D497E446ACA1F63DD7 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0568E6B969FB4E70AD1E910E /* icomoon.ttf */; };
+		F116370B34784F0B8E674AC4 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0477B2EC3DEF459AA9CC593C /* Lato-Bold.ttf */; };
+		C47D44AE0A624559A1B3B5B5 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7245ED4744B2CB84A3D24 /* Lato-Regular.ttf */; };
+		E9BBE122BBA3416B894576A1 /* Myriad Pro Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22DA60373B844620804FD3DC /* Myriad Pro Regular.ttf */; };
+		13ACD49F6B46486C89B8432B /* PlayfairDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31F1E478269546A592062653 /* PlayfairDisplay-Bold.otf */; };
+		E7AB0C05D0594ECFB99E8ACC /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D59AE30CE13457182D07692 /* PlayfairDisplay-Bold.ttf */; };
+		628A2F21419945BA967C4AC5 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E26F008D3EA49DDBCB565E7 /* Raleway-Bold.ttf */; };
+		61560AD911CF41EEBE7F3BF5 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B74DBAB951544298ACE5D23D /* Roboto-Italic.ttf */; };
+		6EF0D0780A2F4DC4AF28FD55 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C9933F50749C6B9B4DD9C /* Roboto-Medium.ttf */; };
+		EC84E9C9A19D4FB0924F4857 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8DE708CA3F4D819399AA89 /* Roboto-Regular.ttf */; };
+		8B3A048CBE9A48B8A16AE17C /* SF-UI-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1551A301867048BC92B851BA /* SF-UI-Display-Bold.ttf */; };
+		A817323F29C042039137C684 /* SF-UI-Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C89D29260E84EF19F033CD5 /* SF-UI-Display-Medium.ttf */; };
+		F31C813CBF3B40A186838073 /* SF-UI-Display-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C8FB5CA23BE42EBAC0E87FC /* SF-UI-Display-Regular.ttf */; };
+		E3DEA92E58E944CD9D028993 /* SF-UI-Display-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90AEF99B55914E2BA4A48947 /* SF-UI-Display-Semibold.ttf */; };
+		C121721F531A40918F39AF65 /* SF-UI-Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4D9EBFBB5A5440AB059C33E /* SF-UI-Text-Regular.ttf */; };
+		B96CEF1A331545EAAA499ADC /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2913FAA24D74209BFDACF79 /* SFProText-Bold.ttf */; };
+		373AB51E8CEB4645900DE657 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C486FE7374024616B8837784 /* SFProText-Medium.ttf */; };
+		1E9F3FCFEFCA41C4ADB2F5BE /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003A2101ED7B44A7BEDBEF4A /* SFProText-Regular.ttf */; };
+		46C9E165BFEF4CC7B5161AFA /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F59A7B63549A42239DC3957F /* SFProText-Semibold.ttf */; };
+		8C39EABC94B74784A78A083B /* SFUIDisplay_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7989B9EF095741FF9F1C5E34 /* SFUIDisplay_thin.ttf */; };
+		2F31C92262B84E13BBA379B0 /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D88C2C0BB40F89EE89DF7 /* SFUIDisplay-Bold.ttf */; };
+		B9F7BA8E3AF64195B2C26F7A /* SFUIDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 684D48E3C0A54417A0A2A041 /* SFUIDisplay-Light.ttf */; };
+		38367A7B0DEE497CBE0E3558 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59F6EFE19DC94222AAE566E3 /* SFUIDisplay-Medium.ttf */; };
+		E8A7E17A357243B29C780ABB /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA31817214D4499E9B2DA864 /* SFUIDisplay-Regular.ttf */; };
+		BEA7BA70DF3D425FAC8DC6A1 /* SFUIDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 69627773B4124FB2A6C8515A /* SFUIDisplay-Semibold.otf */; };
+		6B8846A7CDAB4DD797775C9D /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76CE90651D244127A7F4CCC6 /* SFUIDisplay-Semibold.ttf */; };
+		118A4AA0D3304E31A79D7EDB /* SFUIDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8FC288699ED40ED8D69986C /* SFUIDisplay-Thin.ttf */; };
+		29A12A4469D24F34941060A4 /* Steelworks_Vintage_Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E31E2BD7E52141EA86B4CF96 /* Steelworks_Vintage_Demo.ttf */; };
+		AC1029951B784BC8B2DEC803 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBD8BC67C34731ACE24E8B /* AntDesign.ttf */; };
+		6702048568034A6599728A6B /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34D317E76383481C83150B23 /* Entypo.ttf */; };
+		09ED1A82A8D74797971B66E1 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F4ED371B5C4A04B4B7DFE4 /* EvilIcons.ttf */; };
+		12AF5827B0C44C749CF0DF9A /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 769662C1B5544A389F844473 /* Feather.ttf */; };
+		668A068017F244B38C3F55CB /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A46C6782B4C4E13B11B54FC /* FontAwesome.ttf */; };
+		C94951ACDF924F6B851A22C5 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF3D31895D64EB2A686E0FC /* FontAwesome5_Brands.ttf */; };
+		AFBFF6992018450CA8CE12A0 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3442410E78D427B85AE9AF4 /* FontAwesome5_Regular.ttf */; };
+		F8D578F8ECE94287B554DEEC /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DE6D5B8600C479290E64541 /* FontAwesome5_Solid.ttf */; };
+		E9DF1CF042AF4FE484097B27 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51644158569B46B9B0F297F3 /* Fontisto.ttf */; };
+		07C793FFAE7347068B50A484 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 093093450DB24389A8946E1C /* Foundation.ttf */; };
+		412D8C6101E64E72ABC64FD5 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C837B45D2AD34A108B22D3AB /* Ionicons.ttf */; };
+		A36EDA78721D4BB09F649D6B /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087D36A89812457287F34C28 /* MaterialCommunityIcons.ttf */; };
+		04C76B28A7F94B6ABA8DF3D0 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1A106F8A4654B4D99AD3019 /* MaterialIcons.ttf */; };
+		600521C31AEA43F9B888D64D /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE3EF0014C413C8CD34DA6 /* Octicons.ttf */; };
+		C369C4A967494C22AB73F0DA /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52AAF88793CC4F068D385CDC /* Roboto_medium.ttf */; };
+		B53989BD3B874B7FBFC054F0 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F17ACF8313B47FEA6AC7C88 /* Roboto.ttf */; };
+		5E7781B320B64B168A6ECA92 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27F89FAC57A44942B511D9CE /* rubicon-icon-font.ttf */; };
+		F23767C2525243FDBBED6A2D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C22B8885586496CA3D0E0DA /* SimpleLineIcons.ttf */; };
+		489C761DCC94476CB462517C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11024E87B1EE45A6BEB069D4 /* Zocial.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Antiqueruby;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Antiqueruby-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* AntiquerubyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiquerubyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AntiquerubyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiquerubyTests.m; sourceTree = "<group>"; };
+		0E41484714FAD2DF1726093A /* Pods-Antiqueruby-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Antiqueruby-tvOS/Pods-Antiqueruby-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Antiqueruby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Antiqueruby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Antiqueruby/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Antiqueruby/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Antiqueruby/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Antiqueruby/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Antiqueruby/main.m; sourceTree = "<group>"; };
+		23E6288900890667A92822D2 /* Pods-Antiqueruby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby.debug.xcconfig"; path = "Target Support Files/Pods-Antiqueruby/Pods-Antiqueruby.debug.xcconfig"; sourceTree = "<group>"; };
+		2CE7226B31C8CA7DBA30C2E8 /* Pods-Antiqueruby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby.release.xcconfig"; path = "Target Support Files/Pods-Antiqueruby/Pods-Antiqueruby.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Antiqueruby-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Antiqueruby-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Antiqueruby-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Antiqueruby-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		426AC735F7BCF465266283EC /* Pods-Antiqueruby-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Antiqueruby-tvOSTests/Pods-Antiqueruby-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F1B37CC915C5D1C950D4B8F /* Pods-Antiqueruby-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Antiqueruby-tvOS/Pods-Antiqueruby-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		75EAC966A6E0034F994B8667 /* Pods-Antiqueruby-AntiquerubyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby-AntiquerubyTests.debug.xcconfig"; path = "Target Support Files/Pods-Antiqueruby-AntiquerubyTests/Pods-Antiqueruby-AntiquerubyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C36FE3955A62940F203F1D5 /* libPods-Antiqueruby-AntiquerubyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Antiqueruby-AntiquerubyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7B1FADC12C6D2EBBF989A0 /* libPods-Antiqueruby-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Antiqueruby-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		812B7BD6C9FEB834CDC196AD /* Pods-Antiqueruby-AntiquerubyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby-AntiquerubyTests.release.xcconfig"; path = "Target Support Files/Pods-Antiqueruby-AntiquerubyTests/Pods-Antiqueruby-AntiquerubyTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Antiqueruby/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CBCEFFEF60BAFD23C6083F7 /* libPods-Antiqueruby-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Antiqueruby-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA5F45E674635D3A24F1E3 /* libPods-Antiqueruby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Antiqueruby.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01BC44B53AD1EAA06808776 /* Pods-Antiqueruby-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antiqueruby-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Antiqueruby-tvOSTests/Pods-Antiqueruby-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		D6DCB4C9BA46461AAD7947A7 /* Bariol_Regular.ttf */ = {isa = PBXFileReference; name = "Bariol_Regular.ttf"; path = "../App/Fonts/Bariol_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		631FFAF1B1EA4E77A48EB02D /* Bariol.ttf */ = {isa = PBXFileReference; name = "Bariol.ttf"; path = "../App/Fonts/Bariol.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41AEE08F309244E4A19E6BF7 /* BariolRegular.ttf */ = {isa = PBXFileReference; name = "BariolRegular.ttf"; path = "../App/Fonts/BariolRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63A8F5750F1B41A6823EE45D /* BebasNeue Bold.ttf */ = {isa = PBXFileReference; name = "BebasNeue Bold.ttf"; path = "../App/Fonts/BebasNeue Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15BCD30EE91E4C87AB3027B9 /* BebasNeueBook.ttf */ = {isa = PBXFileReference; name = "BebasNeueBook.ttf"; path = "../App/Fonts/BebasNeueBook.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9006AF643BB949B89C76244A /* Helvetica.ttf */ = {isa = PBXFileReference; name = "Helvetica.ttf"; path = "../App/Fonts/Helvetica.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A31A44091044AA2BBC44D6A /* HelveticaNeue-Bold.ttf */ = {isa = PBXFileReference; name = "HelveticaNeue-Bold.ttf"; path = "../App/Fonts/HelveticaNeue-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4658886A67784D9A96349FF9 /* HelveticaNeue-Light.ttf */ = {isa = PBXFileReference; name = "HelveticaNeue-Light.ttf"; path = "../App/Fonts/HelveticaNeue-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		142773E3F62C429AB5F2238D /* HelveticaNeue-Regular.ttf */ = {isa = PBXFileReference; name = "HelveticaNeue-Regular.ttf"; path = "../App/Fonts/HelveticaNeue-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0568E6B969FB4E70AD1E910E /* icomoon.ttf */ = {isa = PBXFileReference; name = "icomoon.ttf"; path = "../App/Fonts/icomoon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0477B2EC3DEF459AA9CC593C /* Lato-Bold.ttf */ = {isa = PBXFileReference; name = "Lato-Bold.ttf"; path = "../App/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CA7245ED4744B2CB84A3D24 /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../App/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22DA60373B844620804FD3DC /* Myriad Pro Regular.ttf */ = {isa = PBXFileReference; name = "Myriad Pro Regular.ttf"; path = "../App/Fonts/Myriad Pro Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31F1E478269546A592062653 /* PlayfairDisplay-Bold.otf */ = {isa = PBXFileReference; name = "PlayfairDisplay-Bold.otf"; path = "../App/Fonts/PlayfairDisplay-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D59AE30CE13457182D07692 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-Bold.ttf"; path = "../App/Fonts/PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E26F008D3EA49DDBCB565E7 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../App/Fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B74DBAB951544298ACE5D23D /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../App/Fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C5C9933F50749C6B9B4DD9C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../App/Fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE8DE708CA3F4D819399AA89 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../App/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1551A301867048BC92B851BA /* SF-UI-Display-Bold.ttf */ = {isa = PBXFileReference; name = "SF-UI-Display-Bold.ttf"; path = "../App/Fonts/SF-UI-Display-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C89D29260E84EF19F033CD5 /* SF-UI-Display-Medium.ttf */ = {isa = PBXFileReference; name = "SF-UI-Display-Medium.ttf"; path = "../App/Fonts/SF-UI-Display-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C8FB5CA23BE42EBAC0E87FC /* SF-UI-Display-Regular.ttf */ = {isa = PBXFileReference; name = "SF-UI-Display-Regular.ttf"; path = "../App/Fonts/SF-UI-Display-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90AEF99B55914E2BA4A48947 /* SF-UI-Display-Semibold.ttf */ = {isa = PBXFileReference; name = "SF-UI-Display-Semibold.ttf"; path = "../App/Fonts/SF-UI-Display-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4D9EBFBB5A5440AB059C33E /* SF-UI-Text-Regular.ttf */ = {isa = PBXFileReference; name = "SF-UI-Text-Regular.ttf"; path = "../App/Fonts/SF-UI-Text-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2913FAA24D74209BFDACF79 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; name = "SFProText-Bold.ttf"; path = "../App/Fonts/SFProText-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C486FE7374024616B8837784 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; name = "SFProText-Medium.ttf"; path = "../App/Fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		003A2101ED7B44A7BEDBEF4A /* SFProText-Regular.ttf */ = {isa = PBXFileReference; name = "SFProText-Regular.ttf"; path = "../App/Fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F59A7B63549A42239DC3957F /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; name = "SFProText-Semibold.ttf"; path = "../App/Fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7989B9EF095741FF9F1C5E34 /* SFUIDisplay_thin.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay_thin.ttf"; path = "../App/Fonts/SFUIDisplay_thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D5D88C2C0BB40F89EE89DF7 /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay-Bold.ttf"; path = "../App/Fonts/SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		684D48E3C0A54417A0A2A041 /* SFUIDisplay-Light.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay-Light.ttf"; path = "../App/Fonts/SFUIDisplay-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59F6EFE19DC94222AAE566E3 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay-Medium.ttf"; path = "../App/Fonts/SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA31817214D4499E9B2DA864 /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay-Regular.ttf"; path = "../App/Fonts/SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69627773B4124FB2A6C8515A /* SFUIDisplay-Semibold.otf */ = {isa = PBXFileReference; name = "SFUIDisplay-Semibold.otf"; path = "../App/Fonts/SFUIDisplay-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76CE90651D244127A7F4CCC6 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay-Semibold.ttf"; path = "../App/Fonts/SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8FC288699ED40ED8D69986C /* SFUIDisplay-Thin.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay-Thin.ttf"; path = "../App/Fonts/SFUIDisplay-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E31E2BD7E52141EA86B4CF96 /* Steelworks_Vintage_Demo.ttf */ = {isa = PBXFileReference; name = "Steelworks_Vintage_Demo.ttf"; path = "../App/Fonts/Steelworks_Vintage_Demo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FEBD8BC67C34731ACE24E8B /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34D317E76383481C83150B23 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51F4ED371B5C4A04B4B7DFE4 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		769662C1B5544A389F844473 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A46C6782B4C4E13B11B54FC /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ADF3D31895D64EB2A686E0FC /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3442410E78D427B85AE9AF4 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7DE6D5B8600C479290E64541 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51644158569B46B9B0F297F3 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		093093450DB24389A8946E1C /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C837B45D2AD34A108B22D3AB /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		087D36A89812457287F34C28 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1A106F8A4654B4D99AD3019 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CCE3EF0014C413C8CD34DA6 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52AAF88793CC4F068D385CDC /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F17ACF8313B47FEA6AC7C88 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27F89FAC57A44942B511D9CE /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C22B8885586496CA3D0E0DA /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11024E87B1EE45A6BEB069D4 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAB40E0EF7B15DBAE96FA82 /* libPods-Antiqueruby-AntiquerubyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D8893008AC875C08E3B3F4 /* libPods-Antiqueruby.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FBD1863F68D92F5D770402 /* libPods-Antiqueruby-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154D6CC91D8896DA287666E5 /* libPods-Antiqueruby-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AntiquerubyTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AntiquerubyTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AntiquerubyTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Antiqueruby */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Antiqueruby;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				ABCA5F45E674635D3A24F1E3 /* libPods-Antiqueruby.a */,
+				7C36FE3955A62940F203F1D5 /* libPods-Antiqueruby-AntiquerubyTests.a */,
+				7F7B1FADC12C6D2EBBF989A0 /* libPods-Antiqueruby-tvOS.a */,
+				8CBCEFFEF60BAFD23C6083F7 /* libPods-Antiqueruby-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78186C873F490A306FFD7F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23E6288900890667A92822D2 /* Pods-Antiqueruby.debug.xcconfig */,
+				2CE7226B31C8CA7DBA30C2E8 /* Pods-Antiqueruby.release.xcconfig */,
+				75EAC966A6E0034F994B8667 /* Pods-Antiqueruby-AntiquerubyTests.debug.xcconfig */,
+				812B7BD6C9FEB834CDC196AD /* Pods-Antiqueruby-AntiquerubyTests.release.xcconfig */,
+				5F1B37CC915C5D1C950D4B8F /* Pods-Antiqueruby-tvOS.debug.xcconfig */,
+				0E41484714FAD2DF1726093A /* Pods-Antiqueruby-tvOS.release.xcconfig */,
+				C01BC44B53AD1EAA06808776 /* Pods-Antiqueruby-tvOSTests.debug.xcconfig */,
+				426AC735F7BCF465266283EC /* Pods-Antiqueruby-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Antiqueruby */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AntiquerubyTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				78186C873F490A306FFD7F32 /* Pods */,
+				4CF80CA96F55462ABE155936 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Antiqueruby.app */,
+				00E356EE1AD99517003FC87E /* AntiquerubyTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Antiqueruby-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Antiqueruby-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF80CA96F55462ABE155936 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D6DCB4C9BA46461AAD7947A7 /* Bariol_Regular.ttf */,
+				631FFAF1B1EA4E77A48EB02D /* Bariol.ttf */,
+				41AEE08F309244E4A19E6BF7 /* BariolRegular.ttf */,
+				63A8F5750F1B41A6823EE45D /* BebasNeue Bold.ttf */,
+				15BCD30EE91E4C87AB3027B9 /* BebasNeueBook.ttf */,
+				9006AF643BB949B89C76244A /* Helvetica.ttf */,
+				7A31A44091044AA2BBC44D6A /* HelveticaNeue-Bold.ttf */,
+				4658886A67784D9A96349FF9 /* HelveticaNeue-Light.ttf */,
+				142773E3F62C429AB5F2238D /* HelveticaNeue-Regular.ttf */,
+				0568E6B969FB4E70AD1E910E /* icomoon.ttf */,
+				0477B2EC3DEF459AA9CC593C /* Lato-Bold.ttf */,
+				3CA7245ED4744B2CB84A3D24 /* Lato-Regular.ttf */,
+				22DA60373B844620804FD3DC /* Myriad Pro Regular.ttf */,
+				31F1E478269546A592062653 /* PlayfairDisplay-Bold.otf */,
+				8D59AE30CE13457182D07692 /* PlayfairDisplay-Bold.ttf */,
+				3E26F008D3EA49DDBCB565E7 /* Raleway-Bold.ttf */,
+				B74DBAB951544298ACE5D23D /* Roboto-Italic.ttf */,
+				1C5C9933F50749C6B9B4DD9C /* Roboto-Medium.ttf */,
+				FE8DE708CA3F4D819399AA89 /* Roboto-Regular.ttf */,
+				1551A301867048BC92B851BA /* SF-UI-Display-Bold.ttf */,
+				5C89D29260E84EF19F033CD5 /* SF-UI-Display-Medium.ttf */,
+				8C8FB5CA23BE42EBAC0E87FC /* SF-UI-Display-Regular.ttf */,
+				90AEF99B55914E2BA4A48947 /* SF-UI-Display-Semibold.ttf */,
+				F4D9EBFBB5A5440AB059C33E /* SF-UI-Text-Regular.ttf */,
+				A2913FAA24D74209BFDACF79 /* SFProText-Bold.ttf */,
+				C486FE7374024616B8837784 /* SFProText-Medium.ttf */,
+				003A2101ED7B44A7BEDBEF4A /* SFProText-Regular.ttf */,
+				F59A7B63549A42239DC3957F /* SFProText-Semibold.ttf */,
+				7989B9EF095741FF9F1C5E34 /* SFUIDisplay_thin.ttf */,
+				9D5D88C2C0BB40F89EE89DF7 /* SFUIDisplay-Bold.ttf */,
+				684D48E3C0A54417A0A2A041 /* SFUIDisplay-Light.ttf */,
+				59F6EFE19DC94222AAE566E3 /* SFUIDisplay-Medium.ttf */,
+				DA31817214D4499E9B2DA864 /* SFUIDisplay-Regular.ttf */,
+				69627773B4124FB2A6C8515A /* SFUIDisplay-Semibold.otf */,
+				76CE90651D244127A7F4CCC6 /* SFUIDisplay-Semibold.ttf */,
+				F8FC288699ED40ED8D69986C /* SFUIDisplay-Thin.ttf */,
+				E31E2BD7E52141EA86B4CF96 /* Steelworks_Vintage_Demo.ttf */,
+				1FEBD8BC67C34731ACE24E8B /* AntDesign.ttf */,
+				34D317E76383481C83150B23 /* Entypo.ttf */,
+				51F4ED371B5C4A04B4B7DFE4 /* EvilIcons.ttf */,
+				769662C1B5544A389F844473 /* Feather.ttf */,
+				7A46C6782B4C4E13B11B54FC /* FontAwesome.ttf */,
+				ADF3D31895D64EB2A686E0FC /* FontAwesome5_Brands.ttf */,
+				B3442410E78D427B85AE9AF4 /* FontAwesome5_Regular.ttf */,
+				7DE6D5B8600C479290E64541 /* FontAwesome5_Solid.ttf */,
+				51644158569B46B9B0F297F3 /* Fontisto.ttf */,
+				093093450DB24389A8946E1C /* Foundation.ttf */,
+				C837B45D2AD34A108B22D3AB /* Ionicons.ttf */,
+				087D36A89812457287F34C28 /* MaterialCommunityIcons.ttf */,
+				B1A106F8A4654B4D99AD3019 /* MaterialIcons.ttf */,
+				2CCE3EF0014C413C8CD34DA6 /* Octicons.ttf */,
+				52AAF88793CC4F068D385CDC /* Roboto_medium.ttf */,
+				0F17ACF8313B47FEA6AC7C88 /* Roboto.ttf */,
+				27F89FAC57A44942B511D9CE /* rubicon-icon-font.ttf */,
+				3C22B8885586496CA3D0E0DA /* SimpleLineIcons.ttf */,
+				11024E87B1EE45A6BEB069D4 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AntiquerubyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AntiquerubyTests" */;
+			buildPhases = (
+				09B701E38A1F410543AF3E91 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				B03A312630A65C57F1694EF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AntiquerubyTests;
+			productName = AntiquerubyTests;
+			productReference = 00E356EE1AD99517003FC87E /* AntiquerubyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Antiqueruby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Antiqueruby" */;
+			buildPhases = (
+				FF424E320CA379C0D1F6780E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				74F083C6856C19ECAB1B3F61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antiqueruby;
+			productName = Antiqueruby;
+			productReference = 13B07F961A680F5B00A75B9A /* Antiqueruby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Antiqueruby-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Antiqueruby-tvOS" */;
+			buildPhases = (
+				470DE495CABF42A10DCC80ED /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Antiqueruby-tvOS";
+			productName = "Antiqueruby-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Antiqueruby-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Antiqueruby-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Antiqueruby-tvOSTests" */;
+			buildPhases = (
+				99773A17787B24E962785FCA /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Antiqueruby-tvOSTests";
+			productName = "Antiqueruby-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Antiqueruby-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Antiqueruby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Antiqueruby */,
+				00E356ED1AD99517003FC87E /* AntiquerubyTests */,
+				2D02E47A1E0B4A5D006451C7 /* Antiqueruby-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Antiqueruby-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9583251F66F849098958819F /* Bariol_Regular.ttf in Resources */,
+				C41FB29B1E57466A93332FA7 /* Bariol.ttf in Resources */,
+				026D6D7522BA4BE0A2499082 /* BariolRegular.ttf in Resources */,
+				D994EFC05F5749DFB094AC08 /* BebasNeue Bold.ttf in Resources */,
+				259C250BD7B946FABB8BF1D0 /* BebasNeueBook.ttf in Resources */,
+				6770B969F2D941F98E242F16 /* Helvetica.ttf in Resources */,
+				EE49F7AAB9FB4457AB75F5EA /* HelveticaNeue-Bold.ttf in Resources */,
+				0AC183EF1DCF4BBFB5755C6A /* HelveticaNeue-Light.ttf in Resources */,
+				371C32AF275B45939B9F9EDC /* HelveticaNeue-Regular.ttf in Resources */,
+				F535B7D497E446ACA1F63DD7 /* icomoon.ttf in Resources */,
+				F116370B34784F0B8E674AC4 /* Lato-Bold.ttf in Resources */,
+				C47D44AE0A624559A1B3B5B5 /* Lato-Regular.ttf in Resources */,
+				E9BBE122BBA3416B894576A1 /* Myriad Pro Regular.ttf in Resources */,
+				13ACD49F6B46486C89B8432B /* PlayfairDisplay-Bold.otf in Resources */,
+				E7AB0C05D0594ECFB99E8ACC /* PlayfairDisplay-Bold.ttf in Resources */,
+				628A2F21419945BA967C4AC5 /* Raleway-Bold.ttf in Resources */,
+				61560AD911CF41EEBE7F3BF5 /* Roboto-Italic.ttf in Resources */,
+				6EF0D0780A2F4DC4AF28FD55 /* Roboto-Medium.ttf in Resources */,
+				EC84E9C9A19D4FB0924F4857 /* Roboto-Regular.ttf in Resources */,
+				8B3A048CBE9A48B8A16AE17C /* SF-UI-Display-Bold.ttf in Resources */,
+				A817323F29C042039137C684 /* SF-UI-Display-Medium.ttf in Resources */,
+				F31C813CBF3B40A186838073 /* SF-UI-Display-Regular.ttf in Resources */,
+				E3DEA92E58E944CD9D028993 /* SF-UI-Display-Semibold.ttf in Resources */,
+				C121721F531A40918F39AF65 /* SF-UI-Text-Regular.ttf in Resources */,
+				B96CEF1A331545EAAA499ADC /* SFProText-Bold.ttf in Resources */,
+				373AB51E8CEB4645900DE657 /* SFProText-Medium.ttf in Resources */,
+				1E9F3FCFEFCA41C4ADB2F5BE /* SFProText-Regular.ttf in Resources */,
+				46C9E165BFEF4CC7B5161AFA /* SFProText-Semibold.ttf in Resources */,
+				8C39EABC94B74784A78A083B /* SFUIDisplay_thin.ttf in Resources */,
+				2F31C92262B84E13BBA379B0 /* SFUIDisplay-Bold.ttf in Resources */,
+				B9F7BA8E3AF64195B2C26F7A /* SFUIDisplay-Light.ttf in Resources */,
+				38367A7B0DEE497CBE0E3558 /* SFUIDisplay-Medium.ttf in Resources */,
+				E8A7E17A357243B29C780ABB /* SFUIDisplay-Regular.ttf in Resources */,
+				BEA7BA70DF3D425FAC8DC6A1 /* SFUIDisplay-Semibold.otf in Resources */,
+				6B8846A7CDAB4DD797775C9D /* SFUIDisplay-Semibold.ttf in Resources */,
+				118A4AA0D3304E31A79D7EDB /* SFUIDisplay-Thin.ttf in Resources */,
+				29A12A4469D24F34941060A4 /* Steelworks_Vintage_Demo.ttf in Resources */,
+				AC1029951B784BC8B2DEC803 /* AntDesign.ttf in Resources */,
+				6702048568034A6599728A6B /* Entypo.ttf in Resources */,
+				09ED1A82A8D74797971B66E1 /* EvilIcons.ttf in Resources */,
+				12AF5827B0C44C749CF0DF9A /* Feather.ttf in Resources */,
+				668A068017F244B38C3F55CB /* FontAwesome.ttf in Resources */,
+				C94951ACDF924F6B851A22C5 /* FontAwesome5_Brands.ttf in Resources */,
+				AFBFF6992018450CA8CE12A0 /* FontAwesome5_Regular.ttf in Resources */,
+				F8D578F8ECE94287B554DEEC /* FontAwesome5_Solid.ttf in Resources */,
+				E9DF1CF042AF4FE484097B27 /* Fontisto.ttf in Resources */,
+				07C793FFAE7347068B50A484 /* Foundation.ttf in Resources */,
+				412D8C6101E64E72ABC64FD5 /* Ionicons.ttf in Resources */,
+				A36EDA78721D4BB09F649D6B /* MaterialCommunityIcons.ttf in Resources */,
+				04C76B28A7F94B6ABA8DF3D0 /* MaterialIcons.ttf in Resources */,
+				600521C31AEA43F9B888D64D /* Octicons.ttf in Resources */,
+				C369C4A967494C22AB73F0DA /* Roboto_medium.ttf in Resources */,
+				B53989BD3B874B7FBFC054F0 /* Roboto.ttf in Resources */,
+				5E7781B320B64B168A6ECA92 /* rubicon-icon-font.ttf in Resources */,
+				F23767C2525243FDBBED6A2D /* SimpleLineIcons.ttf in Resources */,
+				489C761DCC94476CB462517C /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		09B701E38A1F410543AF3E91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Antiqueruby-AntiquerubyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		470DE495CABF42A10DCC80ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Antiqueruby-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F083C6856C19ECAB1B3F61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Antiqueruby/Pods-Antiqueruby-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Antiqueruby/Pods-Antiqueruby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99773A17787B24E962785FCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Antiqueruby-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03A312630A65C57F1694EF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Antiqueruby-AntiquerubyTests/Pods-Antiqueruby-AntiquerubyTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Antiqueruby-AntiquerubyTests/Pods-Antiqueruby-AntiquerubyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF424E320CA379C0D1F6780E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Antiqueruby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AntiquerubyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* AntiquerubyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Antiqueruby */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Antiqueruby-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EAC966A6E0034F994B8667 /* Pods-Antiqueruby-AntiquerubyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AntiquerubyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antiqueruby.app/Antiqueruby";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812B7BD6C9FEB834CDC196AD /* Pods-Antiqueruby-AntiquerubyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AntiquerubyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antiqueruby.app/Antiqueruby";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E6288900890667A92822D2 /* Pods-Antiqueruby.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Antiqueruby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Antiqueruby;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE7226B31C8CA7DBA30C2E8 /* Pods-Antiqueruby.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Antiqueruby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Antiqueruby;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F1B37CC915C5D1C950D4B8F /* Pods-Antiqueruby-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Antiqueruby-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Antiqueruby-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E41484714FAD2DF1726093A /* Pods-Antiqueruby-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Antiqueruby-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Antiqueruby-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01BC44B53AD1EAA06808776 /* Pods-Antiqueruby-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Antiqueruby-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Antiqueruby-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antiqueruby-tvOS.app/Antiqueruby-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426AC735F7BCF465266283EC /* Pods-Antiqueruby-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Antiqueruby-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Antiqueruby-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antiqueruby-tvOS.app/Antiqueruby-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AntiquerubyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Antiqueruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Antiqueruby-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Antiqueruby-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Antiqueruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
